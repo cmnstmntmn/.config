@@ -1,0 +1,23 @@
+window-padding-color = extend-always
+window-padding-balance = true
+window-save-state = always
+theme = carbonfox
+font-feature = -calt
+#font-family = Martian Mono
+adjust-cell-height = 15%
+keybind = global:cmd+§=toggle_quick_terminal
+quick-terminal-position = bottom
+quick-terminal-animation-duration = 0
+quick-terminal-autohide = false
+resize-overlay = never
+#copy-on-select = true
+mouse-hide-while-typing = true
+background-blur-radius = 80
+background-opacity = .94
+focus-follows-mouse = true
+macos-window-shadow = false
+#macos-icon = custom-style
+#macos-icon-frame = beige
+#macos-icon-ghost-color = #E47CDB
+#macos-icon-screen-color = #2C2C2C
+
