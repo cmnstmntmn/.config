@@ -1,0 +1,22 @@
+# [[language]]
+# name = "tailwindcss"
+# scope = "source.css"
+# # injection-regex = "(postcss|css|html)"
+# file-types = ["css"]
+# roots = ["tailwind.config.js","tailwind.config.cjs"]
+# language-server = { command = "tailwindcss-language-server", args = ["-vvv", "--stdio"] }
+# config = { }
+
+[[language]]
+name = "elixir"
+# shebangs = ["elixir"]
+# config = { elixirLS.dialyzerEnabled = true }
+# scope = "source.elixir"
+# file-types = ["ex", "exs", "heex", "html.heex"]
+# roots = ["mix.exs"]
+auto-format = true
+# diagnostic-severity = "Hint"
+# comment-token = "#"
+# indent = {tab-width = 2, unit = " "}
+# language-server = {command = "elixir-ls"}
+

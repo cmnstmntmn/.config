@@ -1,0 +1,4 @@
+inherits = "base16_transparent"
+
+"ui.linenr" = {modifiers = ["dim"]}
+
